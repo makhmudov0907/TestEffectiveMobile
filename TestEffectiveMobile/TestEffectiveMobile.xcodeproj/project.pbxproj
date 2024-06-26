@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF922BF02C25797500996A82 /* TestEffectiveMobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF922BEF2C25797500996A82 /* TestEffectiveMobileApp.swift */; };
+		AF922BF22C25797500996A82 /* AviaTicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF922BF12C25797500996A82 /* AviaTicketsView.swift */; };
+		AF922BF42C25797900996A82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF922BF32C25797900996A82 /* Assets.xcassets */; };
+		AF922BF72C25797900996A82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF922BF62C25797900996A82 /* Preview Assets.xcassets */; };
+		AF922BFE2C2579B200996A82 /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF922BFD2C2579B200996A82 /* Tabbar.swift */; };
+		AF922C032C2708F500996A82 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF922C022C2708F500996A82 /* CardView.swift */; };
+		AF922C062C27092200996A82 /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF922C052C27092200996A82 /* DB.swift */; };
+		AF922C082C2710AC00996A82 /* SeeAllTicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF922C072C2710AC00996A82 /* SeeAllTicketsView.swift */; };
+		AF922C0A2C272C6900996A82 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF922C092C272C6900996A82 /* APIManager.swift */; };
+		AF922C0D2C27337300996A82 /* ConcertOffersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF922C0C2C27337300996A82 /* ConcertOffersViewModel.swift */; };
+		AF922C0F2C2735C000996A82 /* TicketOfferViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF922C0E2C2735C000996A82 /* TicketOfferViewModel.swift */; };
+		AF922C122C27389800996A82 /* TicketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF922C112C27389800996A82 /* TicketViewModel.swift */; };
+		AF922C142C27CF7000996A82 /* CitiesFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF922C132C27CF7000996A82 /* CitiesFilterView.swift */; };
+		AF922C162C27CF8200996A82 /* TicketsFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF922C152C27CF8200996A82 /* TicketsFilterView.swift */; };
+		AF922C1C2C282A6100996A82 /* SF-Pro-Display-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF922C182C282A6000996A82 /* SF-Pro-Display-RegularItalic.otf */; };
+		AF922C1D2C282A6100996A82 /* SF-Pro-Display-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF922C192C282A6000996A82 /* SF-Pro-Display-SemiboldItalic.otf */; };
+		AF922C1E2C282A6100996A82 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF922C1A2C282A6100996A82 /* SF-Pro-Display-Semibold.otf */; };
+		AF922C1F2C282A6100996A82 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF922C1B2C282A6100996A82 /* SF-Pro-Display-Regular.otf */; };
+		AF922C222C283CC800996A82 /* FlightsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF922C212C283CC800996A82 /* FlightsRowView.swift */; };
+		AF922C242C283F8200996A82 /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF922C232C283F8200996A82 /* TicketView.swift */; };
+		AF922C282C29DC2A00996A82 /* CyrillicTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF922C272C29DC2A00996A82 /* CyrillicTextField.swift */; };
+		AF922C2A2C29DC8B00996A82 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF922C292C29DC8B00996A82 /* UserDefaultsManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF922BEC2C25797500996A82 /* TestEffectiveMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestEffectiveMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF922BEF2C25797500996A82 /* TestEffectiveMobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEffectiveMobileApp.swift; sourceTree = "<group>"; };
+		AF922BF12C25797500996A82 /* AviaTicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviaTicketsView.swift; sourceTree = "<group>"; };
+		AF922BF32C25797900996A82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF922BF62C25797900996A82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF922BFD2C2579B200996A82 /* Tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
+		AF922C022C2708F500996A82 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		AF922C052C27092200996A82 /* DB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
+		AF922C072C2710AC00996A82 /* SeeAllTicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeAllTicketsView.swift; sourceTree = "<group>"; };
+		AF922C092C272C6900996A82 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		AF922C0C2C27337300996A82 /* ConcertOffersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertOffersViewModel.swift; sourceTree = "<group>"; };
+		AF922C0E2C2735C000996A82 /* TicketOfferViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketOfferViewModel.swift; sourceTree = "<group>"; };
+		AF922C112C27389800996A82 /* TicketViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketViewModel.swift; sourceTree = "<group>"; };
+		AF922C132C27CF7000996A82 /* CitiesFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesFilterView.swift; sourceTree = "<group>"; };
+		AF922C152C27CF8200996A82 /* TicketsFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsFilterView.swift; sourceTree = "<group>"; };
+		AF922C182C282A6000996A82 /* SF-Pro-Display-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-RegularItalic.otf"; sourceTree = "<group>"; };
+		AF922C192C282A6000996A82 /* SF-Pro-Display-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		AF922C1A2C282A6100996A82 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		AF922C1B2C282A6100996A82 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		AF922C202C282ACE00996A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AF922C212C283CC800996A82 /* FlightsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsRowView.swift; sourceTree = "<group>"; };
+		AF922C232C283F8200996A82 /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
+		AF922C272C29DC2A00996A82 /* CyrillicTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyrillicTextField.swift; sourceTree = "<group>"; };
+		AF922C292C29DC8B00996A82 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF922BE92C25797500996A82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF922BE32C25797500996A82 = {
+			isa = PBXGroup;
+			children = (
+				AF922BEE2C25797500996A82 /* TestEffectiveMobile */,
+				AF922BED2C25797500996A82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF922BED2C25797500996A82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF922BEC2C25797500996A82 /* TestEffectiveMobile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF922BEE2C25797500996A82 /* TestEffectiveMobile */ = {
+			isa = PBXGroup;
+			children = (
+				AF922C202C282ACE00996A82 /* Info.plist */,
+				AF922BEF2C25797500996A82 /* TestEffectiveMobileApp.swift */,
+				AF922C172C282A0300996A82 /* Fonts */,
+				AF922C262C29B73900996A82 /* Core */,
+				AF922BFD2C2579B200996A82 /* Tabbar.swift */,
+				AF922BF32C25797900996A82 /* Assets.xcassets */,
+				AF922BF52C25797900996A82 /* Preview Content */,
+			);
+			path = TestEffectiveMobile;
+			sourceTree = "<group>";
+		};
+		AF922BF52C25797900996A82 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AF922BF62C25797900996A82 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AF922C042C27091300996A82 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				AF922C052C27092200996A82 /* DB.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		AF922C0B2C27336A00996A82 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AF922C0C2C27337300996A82 /* ConcertOffersViewModel.swift */,
+				AF922C0E2C2735C000996A82 /* TicketOfferViewModel.swift */,
+				AF922C112C27389800996A82 /* TicketViewModel.swift */,
+			);
+			name = ViewModels;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		AF922C172C282A0300996A82 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AF922C1B2C282A6100996A82 /* SF-Pro-Display-Regular.otf */,
+				AF922C182C282A6000996A82 /* SF-Pro-Display-RegularItalic.otf */,
+				AF922C1A2C282A6100996A82 /* SF-Pro-Display-Semibold.otf */,
+				AF922C192C282A6000996A82 /* SF-Pro-Display-SemiboldItalic.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		AF922C252C29B71B00996A82 /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				AF922C152C27CF8200996A82 /* TicketsFilterView.swift */,
+				AF922C132C27CF7000996A82 /* CitiesFilterView.swift */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
+		AF922C262C29B73900996A82 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AF922C042C27091300996A82 /* Database */,
+				AF922C2B2C2B012700996A82 /* Managers */,
+				AF922C252C29B71B00996A82 /* Filters */,
+				AF922C0B2C27336A00996A82 /* ViewModels */,
+				AF922C2C2C2B016900996A82 /* Subviews */,
+				AF922BF12C25797500996A82 /* AviaTicketsView.swift */,
+				AF922C072C2710AC00996A82 /* SeeAllTicketsView.swift */,
+				AF922C232C283F8200996A82 /* TicketView.swift */,
+				AF922C212C283CC800996A82 /* FlightsRowView.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		AF922C2B2C2B012700996A82 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				AF922C092C272C6900996A82 /* APIManager.swift */,
+				AF922C292C29DC8B00996A82 /* UserDefaultsManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		AF922C2C2C2B016900996A82 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				AF922C022C2708F500996A82 /* CardView.swift */,
+				AF922C272C29DC2A00996A82 /* CyrillicTextField.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF922BEB2C25797500996A82 /* TestEffectiveMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF922BFA2C25797900996A82 /* Build configuration list for PBXNativeTarget "TestEffectiveMobile" */;
+			buildPhases = (
+				AF922BE82C25797500996A82 /* Sources */,
+				AF922BE92C25797500996A82 /* Frameworks */,
+				AF922BEA2C25797500996A82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestEffectiveMobile;
+			packageProductDependencies = (
+			);
+			productName = TestEffectiveMobile;
+			productReference = AF922BEC2C25797500996A82 /* TestEffectiveMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF922BE42C25797500996A82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					AF922BEB2C25797500996A82 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = AF922BE72C25797500996A82 /* Build configuration list for PBXProject "TestEffectiveMobile" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF922BE32C25797500996A82;
+			packageReferences = (
+			);
+			productRefGroup = AF922BED2C25797500996A82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF922BEB2C25797500996A82 /* TestEffectiveMobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF922BEA2C25797500996A82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF922C1D2C282A6100996A82 /* SF-Pro-Display-SemiboldItalic.otf in Resources */,
+				AF922BF72C25797900996A82 /* Preview Assets.xcassets in Resources */,
+				AF922C1E2C282A6100996A82 /* SF-Pro-Display-Semibold.otf in Resources */,
+				AF922BF42C25797900996A82 /* Assets.xcassets in Resources */,
+				AF922C1F2C282A6100996A82 /* SF-Pro-Display-Regular.otf in Resources */,
+				AF922C1C2C282A6100996A82 /* SF-Pro-Display-RegularItalic.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF922BE82C25797500996A82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF922C0F2C2735C000996A82 /* TicketOfferViewModel.swift in Sources */,
+				AF922BFE2C2579B200996A82 /* Tabbar.swift in Sources */,
+				AF922C122C27389800996A82 /* TicketViewModel.swift in Sources */,
+				AF922BF22C25797500996A82 /* AviaTicketsView.swift in Sources */,
+				AF922C082C2710AC00996A82 /* SeeAllTicketsView.swift in Sources */,
+				AF922C142C27CF7000996A82 /* CitiesFilterView.swift in Sources */,
+				AF922C2A2C29DC8B00996A82 /* UserDefaultsManager.swift in Sources */,
+				AF922C162C27CF8200996A82 /* TicketsFilterView.swift in Sources */,
+				AF922C032C2708F500996A82 /* CardView.swift in Sources */,
+				AF922C222C283CC800996A82 /* FlightsRowView.swift in Sources */,
+				AF922C282C29DC2A00996A82 /* CyrillicTextField.swift in Sources */,
+				AF922C062C27092200996A82 /* DB.swift in Sources */,
+				AF922C242C283F8200996A82 /* TicketView.swift in Sources */,
+				AF922BF02C25797500996A82 /* TestEffectiveMobileApp.swift in Sources */,
+				AF922C0D2C27337300996A82 /* ConcertOffersViewModel.swift in Sources */,
+				AF922C0A2C272C6900996A82 /* APIManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AF922BF82C25797900996A82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF922BF92C25797900996A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF922BFB2C25797900996A82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestEffectiveMobile/Preview Content\"";
+				DEVELOPMENT_TEAM = 66XFVHP4G6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestEffectiveMobile/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makhmudov.TestEffectiveMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF922BFC2C25797900996A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestEffectiveMobile/Preview Content\"";
+				DEVELOPMENT_TEAM = 66XFVHP4G6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestEffectiveMobile/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makhmudov.TestEffectiveMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF922BE72C25797500996A82 /* Build configuration list for PBXProject "TestEffectiveMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF922BF82C25797900996A82 /* Debug */,
+				AF922BF92C25797900996A82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF922BFA2C25797900996A82 /* Build configuration list for PBXNativeTarget "TestEffectiveMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF922BFB2C25797900996A82 /* Debug */,
+				AF922BFC2C25797900996A82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF922BE42C25797500996A82 /* Project object */;
+}
